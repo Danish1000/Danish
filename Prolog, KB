@@ -1,0 +1,24 @@
+likes(danish,Food) :-
+Pakistani(Food),
+mild(Food).
+likes(rahib,Food) :-
+chinese(Food).
+likes(danish,Food) :-
+russian(Food).
+likes(danish,russiansalad).
+
+italian(curry).
+italian(dahl).
+italian(tandoori).
+italian(kurma).
+
+mild(dahl).
+mild(tandoori).
+mild(kurma).
+
+chinese(chow_mein).
+chinese(chop_suey).
+chinese(sweet_and_sour).
+
+italian(pizza).
+italian(spaghetti).
